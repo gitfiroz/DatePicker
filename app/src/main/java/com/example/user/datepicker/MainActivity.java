@@ -9,13 +9,13 @@ import android.widget.DatePicker;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    private Button showDateButton;
+    private Button displayDateButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        showDateButton =findViewById(R.id.showDateButtonID);
-        showDateButton.setOnClickListener(new View.OnClickListener() {
+        displayDateButton =findViewById(R.id.showDateButtonID);
+        displayDateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
